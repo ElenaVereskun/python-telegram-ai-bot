@@ -27,7 +27,7 @@ class LLMService:
                 self.sys_prompt += data
                 
             # Указываем модель, которую будем использовать
-            self.model = "gpt://b1g8i6bj34avp7kulp7h/yandexgpt-lite"
+            self.model = "gpt://b1gl3vovuo1aenq7qkov/yandexgpt-lite"
 
         except Exception as e:
             print(f"Произошла ошибка: {str(e)}")
